@@ -1,6 +1,6 @@
 package com.coral.wechat.msg.req;
 
-import com.cccis.wechat.util.MessageBuilder;
+import com.coral.wechat.utils.MessageBuilder;
 
 /**
  * 自定义菜单事件

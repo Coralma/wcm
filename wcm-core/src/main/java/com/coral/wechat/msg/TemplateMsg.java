@@ -1,6 +1,6 @@
 package com.coral.wechat.msg;
 
-import com.cccis.wechat.util.FastJsonUtils;
+import com.coral.wechat.utils.FastJsonUtils;
 
 import java.util.HashMap;
 import java.util.Map;

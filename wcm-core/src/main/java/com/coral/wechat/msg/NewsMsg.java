@@ -1,6 +1,6 @@
 package com.coral.wechat.msg;
 
-import com.cccis.wechat.util.MessageBuilder;
+import com.coral.wechat.utils.MessageBuilder;
 
 import java.util.ArrayList;
 import java.util.List;

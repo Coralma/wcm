@@ -1,6 +1,6 @@
 package com.coral.wechat.msg;
 
-import com.cccis.wechat.util.MessageBuilder;
+import com.coral.wechat.utils.MessageBuilder;
 
 /**
  * 用于回复的文本消息<br>

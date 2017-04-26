@@ -1,6 +1,6 @@
 package com.coral.wechat.msg.req;
 
-import com.cccis.wechat.util.MessageBuilder;
+import com.coral.wechat.utils.MessageBuilder;
 
 /**
  * 扫描带参数二维码事件

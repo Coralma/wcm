@@ -1,6 +1,6 @@
 package com.coral.wechat.utils;
 
-import com.cccis.wechat.msg.*;
+import com.coral.wechat.msg.*;
 
 /**
  * 构建响应消息的工厂类

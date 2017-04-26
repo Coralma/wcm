@@ -1,6 +1,6 @@
 package com.coral.wechat.msg;
 
-import com.cccis.wechat.util.MessageBuilder;
+import com.coral.wechat.utils.MessageBuilder;
 
 /**
  * Created by CCC on 2015/12/25.
