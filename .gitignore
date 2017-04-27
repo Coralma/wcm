@@ -3,6 +3,8 @@
 *.class
 */target/*
 target/
+wcm-web-backend/src/main/webapp/lib/
+wcm-web/src/main/webapp/lib/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

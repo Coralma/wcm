@@ -9,7 +9,9 @@
 
     <modules>
         <module>wcm-core</module>
+        <module>wcm-order</module>
         <module>wcm-web</module>
+        <module>wcm-web-backend</module>
     </modules>
 
     <repositories>

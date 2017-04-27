@@ -20,13 +20,4 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>wechatServlet</servlet-name>
-        <servlet-class>com.coral.servlet.WcmWeChatServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>wechatServlet</servlet-name>
-        <url-pattern>/wc</url-pattern>
-    </servlet-mapping>
-
 </web-app>
