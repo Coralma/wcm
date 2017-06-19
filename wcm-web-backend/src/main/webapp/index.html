@@ -5,25 +5,26 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title>{{mainTitle}}</title>
     <link href="css/style.css" rel="stylesheet">
-    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="lib/weui/dist/style/weui.min.css" rel="stylesheet">
 </head>
 <body>
 <ui-view></ui-view>
 
 <script src="lib/jquery/dist/jquery.min.js"></script>
-<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular/angular.js"></script>
 <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="lib/restangular/dist/restangular.min.js"></script>
 <script src="lib/lodash/dist/lodash.min.js"></script>
-<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script src="app/ui/grid/ng-bootstrap-grid.js"></script>
-<script src="app/ui/grid/ng-grid-compiler.js"></script>
+<script src="lib/ng-file-upload/ng-file-upload-all.min.js"></script>
+<script src="app/utils/codeTableUtils.js"></script>
+<script src="app/widgets/codeTable.js"></script>
+<script src="app/widgets/formatDate.js"></script>
+<script src="app/widgets/ng-infinite-scroll.min.js"></script>
 
 <script src="app/app.js"></script>
-<script src="app/login/login.js"></script>
-<script src="app/main/main.js"></script>
-<script src="app/dashboard/dashboard.js"></script>
+<script src="app/user/userList-ctrl.js"></script>
+<script src="app/user/userEdit-ctrl.js"></script>
+<script src="app/user/user-service.js"></script>
+
 </body>
 </html>

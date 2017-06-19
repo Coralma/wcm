@@ -1,5 +1,5 @@
 angular.module('wcmApp', ['restangular', 'ui.router',
-    'home.controller'])
+    'home.controller','userEdit.ctrl','userList.ctrl'])
     .config(function ($stateProvider, $urlRouterProvider, RestangularProvider, $httpProvider) {
         RestangularProvider.setBaseUrl('/wcm');
         $httpProvider.defaults.withCredentials = true;
@@ -12,6 +12,16 @@ angular.module('wcmApp', ['restangular', 'ui.router',
                 url: '/home',
                 controller: 'HomeCtrl',
                 templateUrl: 'app/home/home.html'
+            })
+            .state('userEdit', {
+                url: '/userEdit',
+                controller: 'UserEditCtrl',
+                templateUrl: 'app/user/userEdit.html'
+            })
+            .state('userList', {
+                url: '/userList',
+                controller: 'UserListCtrl',
+                templateUrl: 'app/user/userList.html'
             });
         $urlRouterProvider.otherwise('/home');
     });

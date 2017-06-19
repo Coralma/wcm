@@ -12,4 +12,17 @@
     <artifactId>wcm-db</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.coral</groupId>
+            <artifactId>wcm-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.coral</groupId>
+            <artifactId>wcm-biz</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>

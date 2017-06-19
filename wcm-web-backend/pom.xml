@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>com.coral</groupId>
-            <artifactId>wcm-order</artifactId>
+            <artifactId>wcm-biz</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>

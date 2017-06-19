@@ -9,7 +9,8 @@
 
     <modules>
         <module>wcm-core</module>
-        <module>wcm-order</module>
+        <module>wcm-biz</module>
+        <module>wcm-db</module>
         <module>wcm-web</module>
         <module>wcm-web-backend</module>
     </modules>
@@ -34,12 +35,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.10</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -156,14 +151,31 @@
             <version>2.6</version>
         </dependency>
         <dependency>
-            <groupId>com.cccis</groupId>
-            <artifactId>base-mongo</artifactId>
-            <version>1.0</version>
+            <groupId>com.coral</groupId>
+            <artifactId>us-mongo</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.coral</groupId>
+            <artifactId>us-utility</artifactId>
+            <version>1.0.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
             <version>2.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
